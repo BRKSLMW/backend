@@ -28,7 +28,7 @@ const studentupload = require("../midelwear/studentupload");
 
 //require auth for all routes
 
-//router.use(requireAuth);
+router.use(requireAuth);
 
 //staff
 router.get("/staff", getstaffinfos);
